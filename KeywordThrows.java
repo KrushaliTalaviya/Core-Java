@@ -15,7 +15,7 @@ public class KeywordThrows {
 		throw new IllegalAccessException("demo");
 	}
 
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 		try {
 			throwOne(); // Throws the exception
 		} catch (IllegalAccessException e) {

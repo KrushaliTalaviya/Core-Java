@@ -12,28 +12,28 @@ class Student {
 	private String name;
 
 	// Get method for name
-	public String getname() {
+	public String getName() {
 		return name;
 	}
 
 	// Set method for name
-	public String setname(String name) {
+	public String setName(String name) {
 		return this.name = name;
 	}
 
 }
 
-public class Encapsulation {
+public class EncapsulationDemo {
 
 	public static void main(String[] args) {
 		// Creating the object of encapsulated class
 		Student student = new Student();
 
 		// Setting the value in name member
-		student.setname("Vraj");
+		student.setName("Vraj");
 
 		// Get value of the name member
-		System.out.println("Student name is: " + student.getname());
+		System.out.println("Student name is: " + student.getName());
 	}
 
 }

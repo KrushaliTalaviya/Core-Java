@@ -15,7 +15,7 @@ class Dog extends Animal {
 
 	String value = "Small-cat";
 
-	void show() {
+	void showValue() {
 		// Print value using Dog class
 		System.out.println("using Child class value of : " + value);
 
@@ -29,7 +29,7 @@ public class KeywordSuper {
 
 	public static void main(String[] args) {
 		Dog dog1 = new Dog(); // Make a object of child class
-		dog1.show(); // Call the function
+		dog1.showValue(); // Call the function
 	}
 
 }

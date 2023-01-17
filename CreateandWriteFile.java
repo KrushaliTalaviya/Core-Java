@@ -10,7 +10,7 @@ import java.io.FileWriter; //  the FileWriter class
  * 
  * @author Krushali
  */
-public class CreateandWriteFile {
+public class CreateAndWriteFile {
 
 	public static void main(String[] args) {
 		try {

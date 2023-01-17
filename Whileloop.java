@@ -6,7 +6,7 @@ package program;
  *
  * @author Krushali
  */
-public class Whileloop {
+public class WhileLoop {
 
 	public static void main(String[] args) {
 		// Declare variable

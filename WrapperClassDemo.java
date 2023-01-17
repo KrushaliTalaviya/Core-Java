@@ -6,7 +6,7 @@ package program;
  *
  * @author Krushali
  */
-public class Wrapperclass {
+public class WrapperClassDemo {
 
 	public static void main(String[] args) {
 		// Take a value in wrapper class for Integer,character

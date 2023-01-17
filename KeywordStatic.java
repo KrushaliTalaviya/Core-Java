@@ -12,10 +12,10 @@ public class KeywordStatic {
 	static String name = "krushali"; // Declare static string
 
 	// Declare static function
-	static void printValue(String sub) {
+	static void printValue(String subject) {
 		System.out.println("Marks is: " + marks);
 		System.out.println("Name is: " + name);
-		System.out.println("Subject is:" + sub);
+		System.out.println("Subject is:" + subject);
 	}
 
 	// Static block

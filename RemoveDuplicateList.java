@@ -11,19 +11,19 @@ import java.util.*;
 public class RemoveDuplicateList {
 
 	public static void main(String[] args) {
-		ArrayList<String> arraylist = new ArrayList<String>();
-		arraylist.add("A");
-		arraylist.add("B");
-		arraylist.add("C");
-		arraylist.add("D");
-		arraylist.add("A");
-		arraylist.add("C");
-		arraylist.add("E");
-		arraylist.add("E");
-		arraylist.add("E");
-		System.out.println("Value of the Array is: " + arraylist); // Print the value of the arraylist
-		Set<String> set = new HashSet<String>(arraylist); // Convert arraylist into the set
-		System.out.println("Now value of set is: " + set); // Now remove the duplicate value
+		ArrayList<String> arrayList = new ArrayList<String>();
+		arrayList.add("A");
+		arrayList.add("B");
+		arrayList.add("C");
+		arrayList.add("D");
+		arrayList.add("A");
+		arrayList.add("C");
+		arrayList.add("E");
+		arrayList.add("E");
+		arrayList.add("E");
+		System.out.println("Value of the Array is: " + arrayList); // Print the value of the arrayList
+		Set<String> hashSet = new HashSet<String>(arrayList); // Convert arrayList into the set
+		System.out.println("Now value of set is: " + hashSet); // Now remove the duplicate value
 	}
 
 }

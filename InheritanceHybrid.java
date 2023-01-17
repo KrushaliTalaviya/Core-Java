@@ -35,7 +35,7 @@ class Uncle extends GrandFather {
 
 // Create a sub class of sub class 1
 class ChildOfFather extends Father {
-	
+
 	void showChildOfFather() {
 		System.out.println("I am daughter of son one");
 	}
@@ -58,9 +58,11 @@ public class InheritanceHybrid {
 
 		// Create a object of right side last subclass
 		ChildOfUncle childOfUncle = new ChildOfUncle();
+
 		childOfFather.showChildOfFather();
 		childOfFather.showFather();
 		childOfFather.showGrandFather();
+
 		childOfUncle.showChildOfUncle();
 		childOfUncle.showUncle();
 		childOfUncle.showGrandFather();

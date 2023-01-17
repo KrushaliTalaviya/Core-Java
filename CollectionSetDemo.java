@@ -10,15 +10,15 @@ import java.util.HashSet;
 public class CollectionSetDemo {
 
 	public static void main(String[] args) {
-		HashSet<String> hashset = new HashSet<String>(); // Create a HashSet
-		hashset.add("One"); // Add the string value
-		hashset.add("Two");
-		hashset.add("Three");
-		hashset.add("Four");
-		hashset.add("Five");
+		HashSet<String> hashSet = new HashSet<String>(); // Create a HashSet
+		hashSet.add("One"); // Add the string value
+		hashSet.add("Two");
+		hashSet.add("Three");
+		hashSet.add("Four");
+		hashSet.add("Five");
 
-		// Print the value of HashSet
-		System.out.println("Contents is: " + hashset);
+		// Print the value of hashSet
+		System.out.println("Contents is: " + hashSet);
 	}
 
 }

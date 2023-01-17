@@ -11,25 +11,25 @@ import java.util.*;
 public class HashSetDemo {
 
 	public static void main(String[] args) {
-		HashSet<String> member = new HashSet<String>(); // Create a HashSet
+		HashSet<String> hashSet = new HashSet<String>(); // Create a HashSet
 
-		System.out.println("Member default set size is: " + member.size()); // HashSet size
-		System.out.println("Member default value is: " + member); // HashSet Value
-		member.add("Krushali"); // Add the value in set
-		member.add("Bharatbhai");
-		member.add("Talaviya");
-		member.add("100");
+		System.out.println("Member default set size is: " + hashSet.size()); // HashSet size
+		System.out.println("Member default value is: " + hashSet); // HashSet Value
+		hashSet.add("Krushali"); // Add the value in set
+		hashSet.add("Bharatbhai");
+		hashSet.add("Talaviya");
+		hashSet.add("100");
 
-		System.out.println("Now member set size is: " + member.size()); // HashSet size after the add value
-		System.out.println("Now member valus is: " + member); // Value of HashSet
+		System.out.println("Now member set size is: " + hashSet.size()); // HashSet size after the add value
+		System.out.println("Now member valus is: " + hashSet); // Value of HashSet
 
-		member.remove("100"); // Remove value
+		hashSet.remove("100"); // Remove value
 
-		System.out.println("Now member set size is: " + member.size());
+		System.out.println("Now member set size is: " + hashSet.size());
 
-		Iterator<String> memberIteration = member.iterator(); // Print the value using Iterator
-		while (memberIteration.hasNext()) {
-			System.out.println(memberIteration.next());
+		Iterator<String> hashSetIteration = hashSet.iterator(); // Print the value using Iterator
+		while (hashSetIteration.hasNext()) {
+			System.out.println(hashSetIteration.next());
 		}
 	}
 

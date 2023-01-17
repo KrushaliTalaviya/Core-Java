@@ -6,7 +6,7 @@ package program;
  *
  * @author Krushali
  */
-public class Dowhileloop {
+public class DoWhileLoop {
 
 	public static void main(String[] args) {
 		// Declare variable

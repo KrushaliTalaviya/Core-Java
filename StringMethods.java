@@ -20,7 +20,7 @@ public class StringMethods {
 		string1 = string2.toLowerCase();
 		System.out.println("In lowercase: " + string1);
 
-		// Trim in strring1
+		// Trim in string1
 		string1 = string1.trim();
 		System.out.println("Using trim method:" + string1);
 

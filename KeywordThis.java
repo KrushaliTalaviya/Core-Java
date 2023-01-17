@@ -5,12 +5,12 @@ package program;
  *
  * @author Krushali
  */
-class Thiskeyword {
+class ThisKeyword {
 
 	// Declare the variable
 	int value = 10;
 
-	void show() {
+	void showValue() {
 		// Using this keyword we can print here value1
 		this.value = 100;
 		System.out.println("value is: " + value);
@@ -21,8 +21,8 @@ class Thiskeyword {
 public class KeywordThis {
 
 	public static void main(String[] args) {
-		Thiskeyword thiskeyword = new Thiskeyword();
-		thiskeyword.show(); // Call the function 
+		ThisKeyword thisKeyword = new ThisKeyword();
+		thisKeyword.showValue(); // Call the function 
 	}
 
 }

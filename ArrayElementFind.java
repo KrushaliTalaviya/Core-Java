@@ -10,8 +10,7 @@ public class ArrayElementFind {
 
 	// Serching method in the array
 	public static int arrayFindElement(int array[], int t) {
-		// If array is null
-		if (array == null) {
+		if (array == null) { // If array is null
 			return -1;
 		}
 

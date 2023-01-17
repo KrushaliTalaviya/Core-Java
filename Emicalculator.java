@@ -8,27 +8,27 @@ import java.util.Scanner;
  *
  * @author Krushali
  */
-public class Emicalculator {
+public class EmiCalculator {
 
 	public static void main(String[] args) {
 
 		// Scanner class to take user input.
-		Scanner scanner = new Scanner(System.in);
+		Scanner userScanner = new Scanner(System.in);
 
 		// Take a amount value of amount
 		System.out.println("Enter a Principal:");
-		double amount = scanner.nextFloat();
+		double amount = userScanner.nextFloat();
 
 		// Take a rate per year
 		System.out.println("Enter a rate:");
-		double rate = scanner.nextFloat();
+		double rate = userScanner.nextFloat();
 
 		// Take a time in to the year
 		System.out.println("Enter a Time in year:");
-		double time = scanner.nextFloat();
+		double time = userScanner.nextFloat();
 
 		// Close scanner class
-		scanner.close();
+		userScanner.close();
 		rate = rate / (12 * 100); /* One month interest */
 		time = time * 12; /* One month period */
 

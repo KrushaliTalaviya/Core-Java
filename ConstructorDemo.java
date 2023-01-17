@@ -21,7 +21,7 @@ class Sum {
 
 }
 
-public class Constructor {
+public class ConstructorDemo {
 
 	public static void main(String[] args) {
 		Sum firstConstructor = new Sum(); // Create a object of default constructor

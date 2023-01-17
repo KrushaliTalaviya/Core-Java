@@ -24,8 +24,8 @@ interface World extends Car, Animals {
 }
 
 // Implementation of inheritance methods
-class Superclass implements Animals, Car, World {
-	
+class SuperClass implements Animals, Car, World {
+
 	public void cat() {
 		System.out.println("This is a cat");
 	}
@@ -40,16 +40,16 @@ class Superclass implements Animals, Car, World {
 
 }
 
-public class Interface {
+public class InterfaceDemo {
 
 	public static void main(String[] args) {
 		// Create a object of class which implement interface
-		Superclass superclass = new Superclass();
+		SuperClass superClass = new SuperClass();
 
 		// Call the methods
-		superclass.cat();
-		superclass.bmw();
-		superclass.earth();
+		superClass.cat();
+		superClass.bmw();
+		superClass.earth();
 	}
 
 }

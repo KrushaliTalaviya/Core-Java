@@ -35,7 +35,7 @@ class Rectangle1 extends Shape {
 
 }
 
-public class PolymorphismRuntime {
+public class PolymorphismRuntimeTime {
 
 	public static void main(String[] args) {
 		Shape shape = new Circle(); // Create a object of class circle

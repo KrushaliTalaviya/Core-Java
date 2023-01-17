@@ -12,12 +12,12 @@ public class SwitchCase {
 
 	public static void main(String[] args) {
 		// Create an object of Scanner class
-		Scanner scanner = new Scanner(System.in);
+		Scanner userScanner = new Scanner(System.in);
 		System.out.println("Enter a number From 1 to 12");
 
 		// Take a choice from user between 1 to 12
-		int choice = scanner.nextInt();
-		scanner.close(); // close the scanner class
+		int choice = userScanner.nextInt();
+		userScanner.close(); // close the scanner class
 
 		// Take a variable for choice value
 		String month = "";

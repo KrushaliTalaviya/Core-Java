@@ -32,14 +32,14 @@ class ChildClassSecond extends ParentClass {
 	}
 
 }
-
+ 
 public class InheritanceHierarchical {
 
 	public static void main(String[] args) {
 		// Create a object of second child class
 		ChildClassSecond childClassSecondObject = new ChildClassSecond();
-		childClassSecondObject.parentClass();
-		childClassSecondObject.childClassSecond();
+		childClassSecondObject.parentClass(); // Call the parent class method
+		childClassSecondObject.childClassSecond(); // Call the second child class method
 	}
 
 }

@@ -11,23 +11,23 @@ public class HashMapDemo {
 
 	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) {
-		HashMap<String, String> student = new HashMap<String, String>();
+		HashMap<String, String> hashMap = new HashMap<String, String>();
 
 		// Add the value in HashMap
-		student.put("FirstName", "Krushali");
-		student.put("LastName", "Bharatbhai");
-		student.put("Enrollment", "200120116002");
+		hashMap.put("FirstName", "Krushali");
+		hashMap.put("LastName", "Bharatbhai");
+		hashMap.put("Enrollment", "200120116002");
 
 		// Print the value
-		System.out.println("Now value is: " + student);
+		System.out.println("Now value is: " + hashMap);
 
-		Set<?> set = student.entrySet(); // Convert into set
+		Set<?> set = hashMap.entrySet(); // Convert into set
 
 		Iterator<?> iteration = set.iterator();
 		while (iteration.hasNext()) {
-			Map.Entry studententry = (Map.Entry) iteration.next(); // Convert in Map.entry
-			System.out.println("Key is: " + studententry.getKey());
-			System.out.println("Value is: " + studententry.getValue());
+			Map.Entry studentEntry = (Map.Entry) iteration.next(); // Convert in Map.entry
+			System.out.println("Key is: " + studentEntry.getKey());
+			System.out.println("Value is: " + studentEntry.getValue());
 			System.out.println();
 		}
 	}

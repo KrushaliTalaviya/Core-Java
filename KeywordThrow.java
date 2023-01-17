@@ -10,7 +10,7 @@ package program;
  */
 public class KeywordThrow {
 	
-	static void demo() {
+	static void demoOfThrow() {
 		try {
 			throw new NullPointerException("demo");
 		} catch (NullPointerException e) {
@@ -21,7 +21,7 @@ public class KeywordThrow {
 
 	public static void main(String[] args) {
 		try {
-			demo();
+			demoOfThrow();
 		} catch (NullPointerException e) {
 			System.out.println("Recaught: " + e);
 		}

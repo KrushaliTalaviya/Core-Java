@@ -15,16 +15,16 @@ public class ReadFile {
 
 	public static void main(String[] args) {
 		File readFile;
-		Scanner scanner = null;
+		Scanner userScanner = null;
 		try {
 			readFile = new File("myTestFile.txt"); // Initialize the file object
 
 			// Initialize the scanner class for read the data from the file
-			scanner = new Scanner(readFile);
+			userScanner = new Scanner(readFile);
 
 			// Read the data from the file using loop
-			while (scanner.hasNextLine()) {
-				String personalDetails = scanner.nextLine();
+			while (userScanner.hasNextLine()) {
+				String personalDetails = userScanner.nextLine();
 				System.out.println(personalDetails);
 			}
 		} catch (FileNotFoundException e) {
@@ -32,7 +32,7 @@ public class ReadFile {
 			System.out.println(e.getMessage()); // Print the error
 		}
 		finally {
-			scanner.close();
+			userScanner.close();
 		}
 	}
 
