@@ -36,5 +36,5 @@ public class EmiCalculator {
 		System.out.println("EMI value is: " + EMI);
 
 	}
-
+	
 }
