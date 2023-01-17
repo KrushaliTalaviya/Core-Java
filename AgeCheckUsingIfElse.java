@@ -18,7 +18,7 @@ public class AgeCheckUsingIfElse {
 
 		// Take a integer age from user
 		int age = userScanner.nextInt();
-		userScanner.close(); // close scanner class
+		userScanner.close(); // Close scanner class
 
 		// Check age is greater than 18 or not.
 		if (age > 18) {
