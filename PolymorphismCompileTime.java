@@ -37,7 +37,7 @@ public class PolymorphismCompileTime {
 		result = multiplication.multiply(10, 10.5);
 		System.out.println("Your integer-double multiplication is: " + result);
 		result = multiplication.multiply(10.5, 10.5);
-		System.out.println("Yout double-double multiplication is: " + result);
+		System.out.println("Your double-double multiplication is: " + result);
 	}
 
 }
