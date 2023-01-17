@@ -18,5 +18,5 @@ public class WhileLoop {
 			number = number + 1;
 		}
 	}
-
+	
 }
