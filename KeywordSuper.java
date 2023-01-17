@@ -7,13 +7,13 @@ package program;
  */
 class Animal {
 
-	String value = "Big-cat";
+	String value = "Big-dog";
 
 }
 
 class Dog extends Animal {
 
-	String value = "Small-cat";
+	String value = "Small-dog";
 
 	void showValue() {
 		// Print value using Dog class
@@ -28,8 +28,8 @@ class Dog extends Animal {
 public class KeywordSuper {
 
 	public static void main(String[] args) {
-		Dog dog1 = new Dog(); // Make a object of child class
-		dog1.showValue(); // Call the function
+		Dog dog = new Dog(); // Make a object of child class
+		dog.showValue(); // Call the function
 	}
 
 }
