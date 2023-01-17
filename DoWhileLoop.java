@@ -18,5 +18,5 @@ public class DoWhileLoop {
 			number++;
 		} while (number <= 10);
 	}
-
+	
 }
